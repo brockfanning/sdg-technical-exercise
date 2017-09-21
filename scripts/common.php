@@ -88,5 +88,25 @@ function get_saved_data() {
     ->select('*')
     ->from('indicator851')
     ->execute();
-  return $select->fetchAll();
+  $results = $select->fetchAll();
+
+  // Take this opportunity to clear blank rows.
+  $good_rows = [];
+  foreach ($results as $index => $row) {
+    if ($index == 0) {
+      continue;
+    }
+    $total = 0;
+    foreach ($row as $key => $column) {
+      if ('year' == $key) {
+        continue;
+      }
+      $total += intval($column);
+    }
+    if ($total > 0) {
+      $good_rows[] = $row;
+    }
+  }
+
+  return $good_rows;
 }
