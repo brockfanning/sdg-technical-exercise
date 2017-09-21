@@ -1,0 +1,4 @@
+host:     localhost
+dbname:   sdg_exercise
+user:     root
+password: CHANGEME
