@@ -42,7 +42,7 @@ $columns = array_keys($rows[0]);
             <thead>
               <tr>
                 <?php foreach ($columns as $column): ?>
-                <th><?php print $column ?></th>
+                <th class="<?php print $column ?>"><?php print $column ?></th>
                 <?php endforeach; ?>
               </tr>
             </thead>
@@ -57,9 +57,15 @@ $columns = array_keys($rows[0]);
             </tbody>
           </table>
         </div>
+        <h2>Line chart</h2>
+        <p class="usa-font-lead">This displays the data in a line chart.</p>
+        <div class="line-chart"></div>
       </div>
     </section>
+
   </main>
   <script src="/assets/js/uswds.min.js"></script>
+  <script src="/assets/js/d3.min.js"></script>
+  <script src="/assets/datavis/indicator851.js"></script>
   </body>
 </html>
