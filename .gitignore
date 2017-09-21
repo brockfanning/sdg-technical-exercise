@@ -1,2 +1,6 @@
 /vendor
 /config/database-parameters.yml
+/node_modules
+/web/assets/*.zip
+/web/assets/*.md
+/web/assets/css
