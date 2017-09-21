@@ -1,3 +1,53 @@
 .table-container {
   overflow-x: scroll;
 }
+
+.line {
+  fill: none;
+  stroke: #ffab00;
+  stroke-width: 3;
+}
+
+.men_16_yrs_and_over { stroke: lightblue; }
+.men_16_to_19_yrs { stroke: darken(lightblue, 10); }
+.men_20_yrs_and_over { stroke: darken(lightblue, 20); }
+.men_20_to_24_yrs { stroke: darken(lightblue, 30); }
+.men_25_yrs_and_over { stroke: darken(lightblue, 40); }
+.men_25_to_34_yrs { stroke: darken(lightblue, 50); }
+.men_35_to_44_yrs { stroke: darken(lightblue, 60); }
+.men_45_to_54_yrs { stroke: darken(lightblue, 70); }
+.men_55_to_64_yrs { stroke: darken(lightblue, 80); }
+.men_65_yrs_and_over { stroke: darken(lightblue, 90); }
+
+.women_16_yrs_and_over { stroke: lightgreen; }
+.women_16_to_19_yrs { stroke: darken(lightgreen, 10); }
+.women_20_yrs_and_over { stroke: darken(lightgreen, 20); }
+.women_20_to_24_yrs { stroke: darken(lightgreen, 30); }
+.women_25_yrs_and_over { stroke: darken(lightgreen, 40); }
+.women_25_to_34_yrs { stroke: darken(lightgreen, 50); }
+.women_35_to_44_yrs { stroke: darken(lightgreen, 60); }
+.women_45_to_54_yrs { stroke: darken(lightgreen, 70); }
+.women_55_to_64_yrs { stroke: darken(lightgreen, 80); }
+.women_65_yrs_and_over { stroke: darken(lightgreen, 90); }
+
+.men_16_yrs_and_over { color: lightblue; }
+.men_16_to_19_yrs { color: darken(lightblue, 10); }
+.men_20_yrs_and_over { color: darken(lightblue, 20); }
+.men_20_to_24_yrs { color: darken(lightblue, 30); }
+.men_25_yrs_and_over { color: darken(lightblue, 40); }
+.men_25_to_34_yrs { color: darken(lightblue, 50); }
+.men_35_to_44_yrs { color: darken(lightblue, 60); }
+.men_45_to_54_yrs { color: darken(lightblue, 70); }
+.men_55_to_64_yrs { color: darken(lightblue, 80); }
+.men_65_yrs_and_over { color: darken(lightblue, 90); }
+
+.women_16_yrs_and_over { color: lightgreen; }
+.women_16_to_19_yrs { color: darken(lightgreen, 10); }
+.women_20_yrs_and_over { color: darken(lightgreen, 20); }
+.women_20_to_24_yrs { color: darken(lightgreen, 30); }
+.women_25_yrs_and_over { color: darken(lightgreen, 40); }
+.women_25_to_34_yrs { color: darken(lightgreen, 50); }
+.women_35_to_44_yrs { color: darken(lightgreen, 60); }
+.women_45_to_54_yrs { color: darken(lightgreen, 70); }
+.women_55_to_64_yrs { color: darken(lightgreen, 80); }
+.women_65_yrs_and_over { color: darken(lightgreen, 90); }

@@ -8,13 +8,14 @@
     "build:css": "postcss --use autoprefixer -b 'last 2 versions' < web/assets/css/uswds.css | postcss --use cssnano --map -o web/assets/css/uswds.min.css",
     "build": "npm run build:css",
     "build:watch": "watch 'npm run build' sass",
-    "uswds-assets": "mkdir -p web/assets; cp -r node_modules/uswds/dist/* web/assets; npm run build:css"
+    "gather-assets": "mkdir -p web/assets; cp -r node_modules/uswds/dist/* web/assets; npm run build:css; cp node_modules/d3/build/d3.min.js web/assets/js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^7.1.4",
     "cssnano": "^3.10.0",
+    "d3": "^4.10.2",
     "node-sass": "^4.5.3",
     "postcss": "^6.0.11",
     "postcss-cli": "^4.1.1",
