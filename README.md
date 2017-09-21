@@ -69,4 +69,4 @@ Some basic design considerations were:
 
 1. Make the line chart interactive with checkboxes to turn on/off the various lines
 2. Add a legend to the line graph
-3. Consider making the contents /web static files, and limiting PHP to a "compilation" step that happens before deployment.
+3. Consider making the contents of /web static files, and limiting PHP to a "compilation" step that happens before deployment.
