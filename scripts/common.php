@@ -73,3 +73,20 @@ function get_remote_data() {
 
   return new CsvFile($source_file);
 }
+
+/**
+ * Get the data that is already saved in the database.
+ *
+ * @ret Array
+ *   Return the saved data as a multidimensional array (fetchAll).
+ */
+function get_saved_data() {
+
+  $conn = get_database_connection();
+  $query_builder = $conn->createQueryBuilder();
+  $select = $query_builder
+    ->select('*')
+    ->from('indicator851')
+    ->execute();
+  return $select->fetchAll();
+}
