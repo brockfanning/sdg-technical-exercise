@@ -4,3 +4,4 @@
 /web/assets/*.zip
 /web/assets/*.md
 /web/assets/css
+/web/assets/js/d3.min.js
